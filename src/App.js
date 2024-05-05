@@ -1,11 +1,11 @@
 
 import './App.css';
+import { TodoWrapper } from './components/wrapper';
 
 function App() {
   return (
     <div className="App">
-      <wrapper></wrapper>
-      
+      <wrapper  />
     </div>
   );
 }

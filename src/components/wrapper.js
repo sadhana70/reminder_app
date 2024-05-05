@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Todo } from "./todo";
 import { TodoForm } from "./todoform";
 import { v4 as uuidv4 } from "uuid";
-import { EditTodoForm } from "./EditTodoForm";
+import { EditTodoForm } from "./editform";
 
 export const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);
